@@ -68,9 +68,12 @@
                 <li><div class="button small fit">Power BI</div></li>
                  <li><div class="button small fit">SQL</div></li>
                  <li><div class="button small fit">Python (Pandas, Scikit-Learn, TensorFlow)</div></li>
+                 <li><div class="button small fit">Snowflakes</div></li>
                  <li><div class="button small fit">Looker Studio</div></li>
                 <li><div class="button small fit">Databricks</div></li>
                 <li><div class="button small fit">Azure</div></li>
+                <li><div class="button small fit">AWS</div></li>
+                <li><div class="button small fit">GCP</div></li>
                 <li><div class="button small fit">ArcGIS Suite</div></li>
                 <li><div class="button small fit">QGIS</div></li>
                 <li><div class="button small fit">Django Web Framework</div></li>
@@ -81,6 +84,26 @@
 
                 <h2 style="text-align: center;">Featured Project Overview</h2>
                 <section class="posts">
+
+                    <article>
+                        <header><h2><a href="#">Thames London Properties Flood Risk Exposure and Insurance Claims Data Architecture Design With Snowflake & PowerBI</a></h2></header>
+                        <a href="#" class="image fit"><img src="images/flood_risk.png" alt="Flood_risk" /></a>
+                        <p>Designed and delivered a full-stack catastrophe risk analytics pipeline simulating 
+                            £10.79bn in Total Insured Value across 10,000 UK properties. Built a scalable Snowflake
+                             data warehouse using Medallion Architecture (Raw → Analytics), leveraging Spatial 
+                             SQL (Point-in-Polygon) to identify flood zone exposure within Thames high-risk boundaries.
+                             Engineered a secure, enterprise-grade RBAC framework following the Principle of Least 
+                             Privilege, enabling controlled BI access while maintaining delegated administrative governance.
+                             Connected Power BI via DirectQuery for real-time analytics and developed advanced DAX 
+                             measures to calculate Loss Exposure %, Risk Concentration, and segment-level exposure 
+                             insights. Designed an executive-ready dashboard highlighting £1.07bn in flood-exposed 
+                             value (9.95% of portfolio), enabling rapid underwriting decisions.</p>
+                        <ul class="actions special">
+                            <li><a href="https://github.com/nwachukwu-okaro/End-to-End-Catastrophe-Risk-Data-Engineering-With-Snowflakes-PowereBI/blob/main/Queries" class="button">View Queries</a></li>
+                            <li><a href="https://github.com/nwachukwu-okaro/End-to-End-Catastrophe-Risk-Data-Engineering-With-Snowflakes-PowereBI" class="button">View Report</a></li>
+                            <li><a href="https://github.com/nwachukwu-okaro/End-to-End-Catastrophe-Risk-Data-Engineering-With-Snowflakes-PowereBI/blob/main/Flood_risk.pdf" class="button primary">View Dashboard</a></li>
+                        </ul>
+                    </article>
                     
 
                     <article>
@@ -93,8 +116,12 @@
                             <li><a href="https://github.com/nwachukwu-okaro/Public-Transport-Accessibility-Analysis-Lancashire-County-Council-400m-Buffer-/blob/main/Layout.pdf" class="button primary">View Layout</a></li>
                         </ul>
                     </article>
+
+
+    
+
                     <article>
-                        <header><h2><a href="#">Sale and Production Performance Power Bi Dashboard</a></h2></header>
+                        <header><h2><a href="#">Sales and Production Performance Power Bi Dashboard</a></h2></header>
                         <a href="#" class="image fit"><img src="images/Sales_dashboard.png" alt="Sale%20and%20Production%20Dashboard" /></a>
                         <p>This Power BI report provides an integrated, decision-focused view of an organisation’s financial 
                             performance, sales operations, and production efficiency. 
@@ -107,16 +134,15 @@
                     </article>
 
                     <article>
-                        <header><h2><a href="#">Labour Cost Control Power Bi Dashboard </a></h2></header>
-                        <a href="#" class="image fit"><img src="images/Cost_KPI.png" alt="Labour%20Cost%20Dashboard" /></a>
-                        <p>This Power BI dashboard provides an end-to-end view of project financial health, labor cost progression,
-                             and procurement transparency. It integrates completion metrics, budget forecasts, weekly cost burn-up
-                              trends, and granular AP/PO transaction data. The report enables executives to monitor budget adherence,
-                               margin performance, and cash exposure in near real time, while supporting drill-down analysis for 
-                               governance and audit purposes.</p>
+                        <header><h2><a href="#"> Insurance Customer Personality Analysis for  Product Recommendation</a></h2></header>
+                        <a href="#" class="image fit"><img src="images/Product_recommendation.png" alt="Customer-Personality-Analysis-for-Product-Recommendation" /></a>
+                        <p>This project analyzed customer data to identify distinct customer segments based on personality traits and behavioral patterns. 
+							By applying clustering techniques in Python, the analysis revealed four distinct customer personas that are valuable for 
+							personalized insurance product recommendations. The insights from this project support targeted marketing strategies and 
+							enhanced customer engagement by aligning insurance offerings with specific customer characteristics.</p>
                         <ul class="actions special">
-                            <li><a href="https://github.com/nwachukwu-okaro/Labor-Manpower-Cost-Control-Dashboard-/blob/main/Labour%20Cost_Dashboard_Report.pdf" class="button">View Report</a></li>
-                            <li><a href="https://github.com/nwachukwu-okaro/Labor-Manpower-Cost-Control-Dashboard-/blob/main/Labour%20Cost%20Dashboard.pdf" class="button primary">View Code</a></li>
+                            <li><a href="https://github.com/nwachukwu-okaro/Customer-Personality-Analysis-for-Product-Recommendation/blob/main/README.md" class="button">View Report</a></li>
+                            <li><a href="https://github.com/nwachukwu-okaro/Customer-Personality-Analysis-for-Product-Recommendation/blob/main/Insurance%20Product%20Recommendation.ipynb" class="button primary">View Code</a></li>
                         </ul>
                     </article>
 
@@ -135,18 +161,20 @@
                     </article>
 
                     <article>
-                        <header><h2><a href="#">Customer Personality Analysis for  Product Recommendation</a></h2></header>
-                        <a href="#" class="image fit"><img src="images/Product_recommendation.png" alt="Customer-Personality-Analysis-for-Product-Recommendation" /></a>
-                        <p>This project analyzed customer data to identify distinct customer segments based on personality traits and behavioral patterns. 
-							By applying clustering techniques in Python, the analysis revealed four distinct customer personas that are valuable for 
-							personalized insurance product recommendations. The insights from this project support targeted marketing strategies and 
-							enhanced customer engagement by aligning insurance offerings with specific customer characteristics.</p>
+                        <header><h2><a href="#">Labour Cost Control Power Bi Dashboard </a></h2></header>
+                        <a href="#" class="image fit"><img src="images/Cost_KPI.png" alt="Labour%20Cost%20Dashboard" /></a>
+                        <p>This Power BI dashboard provides an end-to-end view of project financial health, labor cost progression,
+                             and procurement transparency. It integrates completion metrics, budget forecasts, weekly cost burn-up
+                              trends, and granular AP/PO transaction data. The report enables executives to monitor budget adherence,
+                               margin performance, and cash exposure in near real time, while supporting drill-down analysis for 
+                               governance and audit purposes.</p>
                         <ul class="actions special">
-                            <li><a href="https://github.com/nwachukwu-okaro/Customer-Personality-Analysis-for-Product-Recommendation/blob/main/README.md" class="button">View Report</a></li>
-                            <li><a href="https://github.com/nwachukwu-okaro/Customer-Personality-Analysis-for-Product-Recommendation/blob/main/Insurance%20Product%20Recommendation.ipynb" class="button primary">View Code</a></li>
+                            <li><a href="https://github.com/nwachukwu-okaro/Labor-Manpower-Cost-Control-Dashboard-/blob/main/Labour%20Cost_Dashboard_Report.pdf" class="button">View Report</a></li>
+                            <li><a href="https://github.com/nwachukwu-okaro/Labor-Manpower-Cost-Control-Dashboard-/blob/main/Labour%20Cost%20Dashboard.pdf" class="button primary">View Code</a></li>
                         </ul>
                     </article>
 
+                    
                     <article>
                         <header><h2><a href="#">Insurance Claim Fraud Detection</a></h2></header>
                         <a href="#" class="image fit"><img src="images/Fraud_Detection.png" alt="Insurance%20Fraud%20Machine%20Learning" /></a>
